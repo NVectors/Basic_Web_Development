@@ -1,12 +1,8 @@
 import http.server
 import socketserver
-import os
 
 #Define a port
 PORT = 8080
-
-web_dir = os.path.join(os.path.dirname(__file__), "HTML_CSS_JS")
-os.chdir(web_dir)
 
 # Make a simple HTTP request handler 
 # that serves files from the current directory and any subdirectories
