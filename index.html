@@ -1,0 +1,77 @@
+<!-- This is just a basic HTML page -->
+
+<!DOCTYPE html> <!-- WB must know what HTML version the page is using -->
+
+<html> <!-- Page must start with this tag -->
+
+    <head> <!-- Head element is a container for metadata (data about data)-->
+
+        <title>This is the title!</title>
+
+    </head>
+    
+    <main> <!-- Main element contains all unique contents of an HTML document-->
+        <!-- This includes sidebars, navigation links, site logos, search forums, etc-->
+
+        <!-- Content inside main element would go here -->
+
+    </main>
+
+    <body> <!-- Body element contains all contents of an HTML document-->
+        <!-- This includes text, hyperlinks, images, tables, lists, etc-->
+
+        <p>Below is a paragraph that is anchored with a header ref. placeholder</p>
+        <p>Click here to view more <a href="#">cat photos</a>.</p>
+
+        <p>Below is a image that is anchored with a header ref. placeholder</p>
+        <a href="#"><img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back."></a>
+
+        <div> <!-- This is a section or division in an HTML document -->
+            <h1>This is a header!</h1>
+
+            <p>This is a paragraph!</p>
+        </div>
+
+        <footer> <!-- This is a footer in an HTML document-->
+
+            <p>Footer element contains author or copyright or contact information. It also can contain related documents and top links. As well as sitemap which is a XML file that lists URLs for a site along with additional metadata about each URL so search engines can more intelligently crawl the site.</p>
+            <p>Author: Sample</p>
+            <p><a href="mailto:sample@example.com">Author email: sample@example.com</a></p>
+        </footer>
+
+        <p>There is two types of a list:</p>
+        <ol>
+            <li>This is a ordered list</li>
+        </ol>
+
+        <ul>
+            <li>This is a un-ordered list</li>
+        </ul>
+
+        <p>This is a form; allows for user input(s)</p>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+
+            <p>Below is a Radio Button and a Checkbox that is grouped together base on the same name value</p>
+            <label for="Opinion">
+                <input id="Opinion" 
+                type="radio" 
+                name="Question-Answer" 
+                value="circle">
+            Opinion</label>
+            
+            <label for="Check">
+                <input id="Check"
+                type="checkbox"
+                name="Question-Answer"
+                value="square">
+            Check</label>
+
+            <p>Below is a required text box for user input</p>
+            <input type="text" placeholder="This is an edit text box" required>
+            <button type="submit">Submit</button>
+
+        </form>
+
+    </body>
+
+</html>
