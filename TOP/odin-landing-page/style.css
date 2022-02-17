@@ -129,7 +129,7 @@ button {
 
 .footer {
     display: flex;
-    padding: 16px;
-    color: white;
+    justify-content: center;
+    padding: 32px;
     background-color: #1F2937;
 }
