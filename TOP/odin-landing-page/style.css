@@ -101,8 +101,8 @@ button {
 }
 .sample {
     max-width: 300px;
-
 }
+
 .sample img {
     height: 200px;
     width: 200px;
@@ -112,7 +112,7 @@ button {
     display: flex;
     justify-content: center;
     align-content: center;
-    
+    padding: 64px 200px 64px 200px;
     background-color: #E5E7EB;
 }
 
