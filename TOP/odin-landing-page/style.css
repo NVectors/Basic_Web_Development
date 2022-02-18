@@ -54,14 +54,14 @@ a {
 .header-row-two {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: 64px 0px 64px 0px;
 }
 
 .left {
     display: flex;
     flex-direction: column;
-     
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
 .left #text {
@@ -72,18 +72,25 @@ a {
 
  .left #sub-text {
     font-size: 18px;
-    color: #E5E7EB;
+}
+
+.header-row-two img {
+    display: flex;
+    background-color: #818181;
+    align-self: center;
+    flex: 0 0 auto; 
 }
 
 button {
-    color:#F9FAF8;
     font-weight: bold;
+    color:#F9FAF8;
     background-color: #3882F6;
-    border-radius: 4px;
+    height: 32px;
+    width: 128px;
+    border-radius: 8px;
     border: none;
     text-align: center;
     margin: auto;
-    padding-inline: 24px;
 }
 
 .content {
