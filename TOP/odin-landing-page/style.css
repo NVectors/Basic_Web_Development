@@ -25,7 +25,7 @@ a {
 .header {
     display: flex;
     flex-direction: column;
-    padding: 16px 256px 64px 256px;
+    padding: 16px 512px 64px 512px;
     background-color: #1F2937;
 }
 
@@ -96,6 +96,7 @@ button {
 .content {
     display: flex;
     flex-direction: column;
+    padding: 16px 512px 64px 512px;
     background-color: #ffffff;
 }
 
@@ -123,7 +124,9 @@ button {
     display: flex;
     justify-content: center;
     align-content: center;
-    padding: 64px 200px 64px 200px;
+    flex-wrap: wrap;
+    padding: 64px 1024px 64px 1024px;
+    margin: 0px -512px 0px -512px;
     background-color: #E5E7EB;
 }
 
@@ -132,8 +135,8 @@ button {
     align-content: center;
     color: #ffffff;
     border-radius: 16px;
-    padding: 32px;
-    margin: 92px 128px 92px 128px;
+    padding: 32px 64px 32px 64px;
+    margin: 92px 0px 92px 0px;
     background-color: #3882F6;
 }
 
